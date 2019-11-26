@@ -18,6 +18,6 @@ def reverse_factorial(n):
                 print("i is ",i)
                 n /= i
                 if n ==1:
-                    return i + 1
+                    return i 
     return none
 
