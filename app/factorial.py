@@ -3,7 +3,7 @@ def factorial(n):
     if n == 0:
         return n
     else:
-        for i in range(1,count):
+        for i in range(i,count):
             print("i is ",i)
             print(n)
         return n
