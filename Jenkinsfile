@@ -4,7 +4,7 @@ pipeline{
         stages{ 
 		    stage('---Run Test---'){
                         steps{
-                            sh "pytest tests/test_factorial.py"
+                            sh "python3 -m pytest tests/test_factorial.py"
                         }
                 }
         }
