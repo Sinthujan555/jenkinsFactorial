@@ -6,6 +6,6 @@ pipeline{
                         steps{
                             sh "python3 -m pytest tests/test_factorial.py"
                         }
-                }
+                } 
         }
 }
